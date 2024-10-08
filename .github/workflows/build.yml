@@ -30,7 +30,7 @@ jobs:
         run: go build -v -o dist/akamai-edgegrid-tester_${{ env.GOOS }}_${{ env.GOARCH }}
         env:
           GOOS: darwin
-          GOARCH: armd64
+          GOARCH: arm64
       - name: Build for Linux (AMD64)
         run: go build -v -o dist/akamai-edgegrid-tester_${{ env.GOOS }}_${{ env.GOARCH }}
         env:
@@ -40,7 +40,7 @@ jobs:
         run: go build -v -o dist/akamai-edgegrid-tester_${{ env.GOOS }}_${{ env.GOARCH }}
         env:
           GOOS: linux
-          GOARCH: armd64
+          GOARCH: arm64
       - name: Build for Windows (AMD64)
         run: go build -v -o dist/akamai-edgegrid-tester_${{ env.GOOS }}_${{ env.GOARCH }}
         env:
