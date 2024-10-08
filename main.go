@@ -32,6 +32,8 @@ func main() {
 	var access_token string
 	var path string
 
+	fmt.Printf("NOTE: THIS UTILITY DOES NOT MAKE ANY WEB REQUESTS\n\n")
+
 	// receive inputs from user
 	fmt.Print("Enter akamai host (xxxxxx.luna.akamaiapis.net): ")
 	fmt.Scanln(&host)
